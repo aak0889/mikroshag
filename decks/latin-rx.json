@@ -1,0 +1,253 @@
+{
+  "id": "latin-rx",
+  "title": "Латынь в рецепте",
+  "subtitle": "Рецептура и фармтермины: 30 карточек для медколледжа и вуза",
+  "version": 1,
+  "sources": [
+    "Городкова Ю. И. Латинский язык (для медицинских и фармацевтических колледжей и училищ). КноРус, 25-е изд.",
+    "Рабочие программы ОП.01 «Основы латинского языка с медицинской терминологией» (33.02.01 Фармация), напр. https://www.pfa.ru/sveden/files/rig/RPD_OP.01_Osnovy_LYA_s_MT_33.02.01_2026.pdf",
+    "ВОЗ: основы INN, общие основы (stems) для названий лекарств, https://www.who.int/teams/health-product-and-policy-standards/inn"
+  ],
+  "cards": [
+    {
+      "id": 1,
+      "tag": "Формулы",
+      "q": "Rp.",
+      "a": "Recipe — «Возьми». Этим словом начинается каждая латинская часть рецепта.",
+      "example": "Rp.: Tabulettas Paracetamoli 0,5 numero 10",
+      "mnemonic": "Rp. = «рецепт» и есть: слово recipe дало название всему бланку."
+    },
+    {
+      "id": 2,
+      "tag": "Формулы",
+      "q": "D. S.",
+      "a": "Da. Signa. — «Выдай. Обозначь.» После S. идёт указание для пациента, уже по-русски.",
+      "example": "D. S. По 1 таблетке 3 раза в день после еды",
+      "mnemonic": "Da — «дай» (донор, дата — «данное»), Signa — «сигнал» больному, как принимать."
+    },
+    {
+      "id": 3,
+      "tag": "Формулы",
+      "q": "M. f.",
+      "a": "Misce, fiat (fiant) — «Смешай, пусть образуется (образуются)». Пишется, когда аптека готовит лекарство из нескольких веществ.",
+      "example": "M. f. unguentum — Смешай, пусть образуется мазь",
+      "mnemonic": "Misce — «микс». Смешали — и fiat: пусть будет."
+    },
+    {
+      "id": 4,
+      "tag": "Формулы",
+      "q": "D. t. d.",
+      "a": "Da (dentur) tales doses — «Выдай (пусть будут выданы) такие дозы». Ставится перед числом доз: N. 10 значит выдать 10 одинаковых доз.",
+      "example": "D. t. d. N. 10 in ampullis",
+      "mnemonic": "Tales — «такие же», как в «тот же самый»: одна доза × столько раз."
+    },
+    {
+      "id": 5,
+      "tag": "Формулы",
+      "q": "N.",
+      "a": "Numero — «числом, в количестве». Количество таблеток, ампул, свечей.",
+      "example": "Tabulettas Analgini 0,5 numero 10",
+      "mnemonic": "N. = номер: «номер десять» — десять штук."
+    },
+    {
+      "id": 6,
+      "tag": "Формулы",
+      "q": "q. s.",
+      "a": "Quantum satis — «сколько нужно, сколько потребуется». Вместо точной массы основы.",
+      "example": "Vaselini quantum satis, ut fiat unguentum",
+      "mnemonic": "Satis — как «сытость»: положи столько, чтобы хватило."
+    },
+    {
+      "id": 7,
+      "tag": "Формулы",
+      "q": "āā (ana)",
+      "a": "«Поровну». Масса пишется один раз после последнего вещества и относится к каждому.",
+      "example": "Lanolini\nVaselini āā 10,0 — ланолина и вазелина по 10 г",
+      "mnemonic": "Черта над aa — знак равенства: обоих веществ поровну, как на равных чашах весов."
+    },
+    {
+      "id": 8,
+      "tag": "Указания",
+      "q": "Cito! / Statim!",
+      "a": "Cito — «срочно», statim — «немедленно». Пишется в верхней части рецепта, аптека отпускает лекарство в первую очередь.",
+      "example": "Cito! Rp.: Solutionis Glucosi 5% — 200 ml",
+      "mnemonic": "Cito — от citus, «быстрый». Statim — то самое STAT, которое кричат в сериалах про врачей."
+    },
+    {
+      "id": 9,
+      "tag": "Указания",
+      "q": "Sterilisetur!",
+      "a": "«Пусть будет простерилизовано!» Требование к аптеке для растворов, которые готовят для инъекций и для глаз.",
+      "example": "Rp.: Solutionis Natrii chloridi 0,9% — 200 ml\nSterilisetur!",
+      "mnemonic": "Окончание -etur — «пусть»: sterilisetur — «пусть стерилизуют»."
+    },
+    {
+      "id": 10,
+      "tag": "Указания",
+      "q": "Repetatur! (Rep.)",
+      "a": "«Пусть будет повторено!» (в учебниках встречается и Repete! — «повтори»). Разрешение повторно отпустить лекарство по тому же рецепту.",
+      "example": "Rp.: Tabulettas Paracetamoli 0,5 numero 10\nD. S. По 1 таблетке 3 раза в день\nRepetatur!",
+      "mnemonic": "Repetatur — «репетиция»: повторить ещё раз."
+    },
+    {
+      "id": 11,
+      "tag": "Указания",
+      "q": "D. in vitro nigro",
+      "a": "Da in vitro nigro — «Выдай в тёмной склянке». Для веществ, которые разрушаются на свету.",
+      "example": "Rp.: Solutionis Argenti nitratis 2% — 10 ml\nD. in vitro nigro",
+      "mnemonic": "Vitrum — «витраж», стекло. Niger — «чёрный», отсюда франц. noir и «нуар»."
+    },
+    {
+      "id": 12,
+      "tag": "Указания",
+      "q": "per os",
+      "a": "«Через рот» — приём внутрь. Os, oris n — рот.",
+      "example": "Назначен per os после еды",
+      "mnemonic": "Os, oris — рот, отсюда «оральный приём». Не путать с os, ossis — кость."
+    },
+    {
+      "id": 13,
+      "tag": "Указания",
+      "q": "ad usum externum",
+      "a": "«Для наружного применения».",
+      "example": "Unguentum ad usum externum",
+      "mnemonic": "Externum — «экстерьер», снаружи. Usus — «юзать»: применение."
+    },
+    {
+      "id": 14,
+      "tag": "Указания",
+      "q": "in ampullis",
+      "a": "«В ампулах». Предлог in + Abl. pl. (ampulla → ampullis).",
+      "example": "Rp.: Solutionis Analgini 50% — 2 ml\nD. t. d. N. 10 in ampullis",
+      "mnemonic": "-is на конце после in — «где?»: в ампулах, в таблетках (in tabulettis)."
+    },
+    {
+      "id": 15,
+      "tag": "Формы",
+      "q": "Sol.",
+      "a": "Solutio, onis f — раствор. В рецепте: Solutionis (Gen.) — «раствора».",
+      "example": "Rp.: Solutionis Glucosi 5% — 200 ml",
+      "mnemonic": "Solutio — «солюция», растворение; «сольвент» — растворитель."
+    },
+    {
+      "id": 16,
+      "tag": "Формы",
+      "q": "Ung.",
+      "a": "Unguentum, i n — мазь. В рецепте: Unguenti — «мази».",
+      "example": "Rp.: Unguenti Zinci 30,0",
+      "mnemonic": "От ungo — «мазать»; тот же корень в слове «унгвент», мазь."
+    },
+    {
+      "id": 17,
+      "tag": "Формы",
+      "q": "Tinct.",
+      "a": "Tinctura, ae f — настойка (спиртовое извлечение). В рецепте: Tincturae.",
+      "example": "Rp.: Tincturae Valerianae 30 ml\nD. S. По 25 капель 3 раза в день",
+      "mnemonic": "Tinctura — «тинт», окраска: спирт окрашивается от травы."
+    },
+    {
+      "id": 18,
+      "tag": "Формы",
+      "q": "Inf.",
+      "a": "Infusum, i n — настой (водное извлечение, чаще из листьев, цветков, травы).",
+      "example": "Rp.: Infusi herbae Leonuri ex 15,0 — 200 ml",
+      "mnemonic": "Infusum — «инфузия»: траву «вливают» горячей водой и настаивают."
+    },
+    {
+      "id": 19,
+      "tag": "Формы",
+      "q": "Dec.",
+      "a": "Decoctum, i n — отвар (водное извлечение, чаще из коры, корней, корневищ).",
+      "example": "Rp.: Decocti corticis Quercus ex 20,0 — 200 ml\nD. S. Для полоскания",
+      "mnemonic": "De-coquo — «варить»; кора дуба твёрдая, её отваривают, а не настаивают."
+    },
+    {
+      "id": 20,
+      "tag": "Формы",
+      "q": "Supp.",
+      "a": "Suppositorium, i n — свеча (суппозиторий). В рецепте мн. ч. вин. п.: Suppositoria.",
+      "example": "Rp.: Suppositoria cum Ichthyolo 0,2 numero 10",
+      "mnemonic": "Sub-pono — «подкладывать снизу»."
+    },
+    {
+      "id": 21,
+      "tag": "Формы",
+      "q": "Tab.",
+      "a": "Tabuletta, ae f — таблетка. В рецепте вин. п. мн. ч.: Tabulettas.",
+      "example": "Rp.: Tabulettas Paracetamoli 0,5 numero 10",
+      "mnemonic": "Tabula — «доска, табличка»: маленькая плоская табличка."
+    },
+    {
+      "id": 22,
+      "tag": "Грамматика",
+      "q": "Paracetamolum → ?",
+      "a": "Paracetamoli. Названия лекарственных веществ на -um — II склонение, ср. род; в рецепте они стоят в родительном падеже: -um → -i.",
+      "example": "Analginum → Analgini, Glucosum → Glucosi",
+      "mnemonic": "Таблетки (чего?) парацетамола — вопрос «чего?» подсказывает родительный падеж."
+    },
+    {
+      "id": 23,
+      "tag": "Грамматика",
+      "q": "Кислота аскорбиновая",
+      "a": "Acidum ascorbinicum, в рецепте — Acidi ascorbinici. Прилагательное стоит после существительного и согласуется с ним.",
+      "example": "Rp.: Dragee Acidi ascorbinici 0,05 numero 50",
+      "mnemonic": "По-латыни как в аптечном каталоге: сначала «что» (кислота), потом «какая»."
+    },
+    {
+      "id": 24,
+      "tag": "Грамматика",
+      "q": "Aqua purificata",
+      "a": "Вода очищенная. В рецепте: Aquae purificatae. Раньше писали Aqua destillata — вода дистиллированная.",
+      "example": "Rp.: Kalii iodidi 6,0\nAquae purificatae 200 ml\nM. D. S. По 1 столовой ложке 3 раза в день",
+      "mnemonic": "Purificata — «пурификация», очистка: как «пуризм»."
+    },
+    {
+      "id": 25,
+      "tag": "Грамматика",
+      "q": "Aqua pro injectionibus",
+      "a": "Вода для инъекций. Pro + Abl.: «для».",
+      "example": "Rp.: Aquae pro injectionibus 5 ml\nD. t. d. N. 10 in ampullis",
+      "mnemonic": "Pro — «для» (как в pro et contra, «за и против»); injectio — «инъекция»."
+    },
+    {
+      "id": 26,
+      "tag": "Грамматика",
+      "q": "Oleum Ricini",
+      "a": "Масло касторовое (масло клещевины). В рецепте: Olei Ricini. Названия растений пишутся с большой буквы.",
+      "example": "Rp.: Olei Ricini 30,0\nD. S. Принять внутрь сразу",
+      "mnemonic": "Oleum — «олеиновый», масло. Ricinus — клещевина: семена похожи на клеща."
+    },
+    {
+      "id": 27,
+      "tag": "Отрезки",
+      "q": "-cillinum",
+      "a": "Антибиотики группы пенициллина.",
+      "example": "Benzylpenicillinum, Ampicillinum, Amoxicillinum",
+      "mnemonic": "От плесени Penicillium: -cillin — «пенициллиновая семья»."
+    },
+    {
+      "id": 28,
+      "tag": "Отрезки",
+      "q": "-mycinum",
+      "a": "Антибиотики, первые из которых получены из стрептомицетов (Streptomyces).",
+      "example": "Streptomycinum, Erythromycinum, Azithromycinum",
+      "mnemonic": "Греч. mykes — «гриб» (как «микология»): стрептомицеты сначала приняли за грибы."
+    },
+    {
+      "id": 29,
+      "tag": "Отрезки",
+      "q": "-cainum",
+      "a": "Местные анестетики.",
+      "example": "Lidocainum, Procainum (Novocainum)",
+      "mnemonic": "От коки (cocainum) — первого местного обезболивающего."
+    },
+    {
+      "id": 30,
+      "tag": "Отрезки",
+      "q": "-prilum",
+      "a": "Ингибиторы АПФ — средства от повышенного давления.",
+      "example": "Captoprilum, Enalaprilum, Lisinoprilum",
+      "mnemonic": "Первым в группе был каптоприл, остальные повторяют его хвост -pril: эналаприл, лизиноприл."
+    }
+  ]
+}

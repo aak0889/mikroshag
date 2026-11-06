@@ -1,0 +1,19 @@
+{
+  "id": "python-neon",
+  "title": "Python в неоне",
+  "subtitle": "Синтаксис и встроенные функции Python 3. Демо: 5 карточек из 60",
+  "version": 1,
+  "demo": true,
+  "sources": [
+    "Документация Python 3: Built-in Functions, https://docs.python.org/3/library/functions.html",
+    "Python Tutorial: Data Structures, https://docs.python.org/3/tutorial/datastructures.html",
+    "Formatted string literals (PEP 498), https://docs.python.org/3/reference/lexical_analysis.html#f-strings"
+  ],
+  "cards": [
+    {"id": 1, "tag": "Встроенные", "q": "len(\"неон\")", "a": "4. Функция len() возвращает длину: число символов в строке, элементов в списке, ключей в словаре.", "example": ">>> len([1, 2, 3])\n3", "mnemonic": "len — от length, «длина»."},
+    {"id": 2, "tag": "Циклы", "q": "list(range(1, 5))", "a": "[1, 2, 3, 4]. range(start, stop) включает начало и не включает конец.", "example": "for i in range(3):\n    print(i)   # 0, 1, 2", "mnemonic": "Как лифт до крыши: на сам stop он не поднимается."},
+    {"id": 3, "tag": "Строки", "q": "f\"{name}, привет\"", "a": "f-строка: Python подставляет значение переменной name в фигурные скобки. Работает с версии 3.6.", "example": ">>> name = \"Ада\"\n>>> f\"{name}, привет\"\n'Ада, привет'", "mnemonic": "f — format: строка, которая сама себя заполняет."},
+    {"id": 4, "tag": "Списки", "q": "a.append(x)", "a": "Добавляет x в конец списка a. Меняет сам список и возвращает None.", "example": ">>> a = [1, 2]\n>>> a.append(3)\n>>> a\n[1, 2, 3]", "mnemonic": "append — как «приложение» в книге: всегда в самом конце."},
+    {"id": 5, "tag": "Словари", "q": "d.get(\"key\", 0)", "a": "Возвращает значение по ключу, а если ключа нет — 0 вместо ошибки KeyError. Без второго аргумента вернёт None.", "example": ">>> d = {\"a\": 1}\n>>> d.get(\"b\", 0)\n0", "mnemonic": "get — «взять, если есть». d[\"b\"] в таком случае падает с ошибкой."}
+  ]
+}
